@@ -1,0 +1,2 @@
+REM schtasks.exe /CREATE /SC DAILY /MO 1 /TN "test" /TR "'C:\Users\me\Desktop\Test desarrollo script\taskRun.bat' >> 'C:\Users\me\Desktop\Test desarrollo script\log.txt'" /ST 00:00  /RI 1 /DU 24:00
+schtasks.exe /CREATE /SC DAILY /MO 1 /TN "test" /TR "python 'C:\Users\me\Desktop\Test desarrollo script\TestNode-Desarrollo.py' >> 'C:\Users\me\Desktop\Test desarrollo script\log.txt'" /ST 00:00  /RI 1 /DU 24:00
